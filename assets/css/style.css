@@ -1,0 +1,100 @@
+
+
+body {
+	font-family: Helvetica, Arial, sans-serif; 
+	font-weight: normal; 
+	color: #000000; 
+	font-size:12px; 	
+}
+
+header {
+
+	 background-color:#7E3B1D; 
+	 color:#ffffff; 
+	 text-align:center; 
+	 padding:20px;
+}
+
+
+.MainContainer {
+	margin-top: 20px; 
+	border-left: solid 1px #2580D5; 
+	border-right: solid 1px #2580D5; 
+	border-bottom: solid 1px #2580D5; 
+	border-collapse: collapse;
+	height: auto;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+.MainContainer header {
+
+	background-color:#2580D5; 
+	color:#ffffff; 
+	font-weight:600; 
+	padding:10px;
+	text-align: left;
+}
+
+h1 {
+
+	font-size:30px; 
+	font-weight:normal;
+	line-height: 40px;
+}
+
+#trainTable {
+	margin: 15px 10px;
+	width: 98%;
+	padding: 0;
+}
+
+
+th { 
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 4px;
+	border-bottom: solid 1px #cccccc;
+	border-collapse: collapse;
+ }
+
+
+ #trainTable td { 
+ 	font-weight: normal;
+	padding: 5px 4px;
+	border-bottom: solid 1px #cccccc;
+	border-collapse: collapse; 
+}
+/*FORM STYLES*/
+
+.FormContainer{
+	padding: 10px 10px;
+}
+
+label {
+
+	font-weight:bold;  
+	line-height: 24px;
+}
+
+input {
+
+	width: 100%;
+	margin-bottom: 10px; 
+	height:20px; 
+	border-radius: 5px; 
+	border:solid 1px #cccccc; 
+	border-collapse:collapse;
+}
+
+button {
+	background-color:#2580D5; 
+	color:#ffffff; 
+	font-weight:600; 
+	padding:10px; 
+	border:0; 
+	border-radius: 5px;
+}

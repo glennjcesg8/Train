@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Glenn Gines Hangman Game 5/14/2016-->
+    <title>Train Schedule</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/javascript/moment.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    <script src="assets/javascript/train.js" type="text/javascript"></script>
+</head>
+<body>
+<header><h1>Anytime is Train Time</h1>Choo Choo. Choo Choo.</header>
+<div class="MainContainer">
+	<header>Current Train Schedule</header>
+    <table id="trainTable"></table>
+</div>
+<div class="MainContainer">
+	<header>Add Train</header>
+     <div class="FormContainer">
+    	<form>
+        	<label>Train Name</label><br />
+            <input id="trainName">
+            <label>Destination</label><br />
+            <input id="trainDest">
+            <label>First Train Time (HH:mm - military time)</label><br />
+            <input id="firstTrainTime">
+            <label>Frequency (min)</label><br />
+            <input id="trainFreq">
+            <button type="button" id="trainSubmit">Submit</button>  
+        </form>
+    </div>
+</div>
+</body>
+</html>
